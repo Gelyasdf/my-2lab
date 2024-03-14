@@ -1,0 +1,30 @@
+.navigation {
+  width: 100%;
+  background-color: #333; /* цвет фона навигации */
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.navigation ul li {
+  margin: 0 40px;
+}
+
+.navigation ul li a {
+  display: block;
+  color: white; /* цвет ссылок */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  background-color: #111; /* изменение цвета фона при наведении */
+}
